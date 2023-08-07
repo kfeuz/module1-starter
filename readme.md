@@ -33,8 +33,9 @@ When testing your script you will need files with different modification times.
 You can use the touch command to create files with specific modification
 times. ex. ```touch -d '25 March' file1.txt``` will create file1.txt and set
 the modification time to be March 25.  You should test your code on several
-directories (an empty directory, a directory with multiple files and
-modification times, a directory with some files that contain spaces in the filenames).
+directories: 1) an empty directory; 2) a directory with multiple files and
+modification times, some which match and some which don't; 3) a directory with
+some files that contain spaces in the filenames.
 
 
 ## Submission
